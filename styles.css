@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#generate-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#generate-form label {
+  margin-bottom: 5px;
+}
+
+#generate-form input {
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+#generate-form button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#generated-account {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
